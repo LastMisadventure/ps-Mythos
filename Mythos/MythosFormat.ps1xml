@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- *******************************************************************
+Format Definitions for Mythos
+******************************************************************** -->
+<Configuration>
+	<ViewDefinitions>
+    <View>
+
+      <Name>MTGCard</Name>
+
+      <ViewSelectedBy>
+				<TypeName>MTGCard</TypeName>
+			</ViewSelectedBy>
+			<TableControl>
+        <AutoSize/>
+
+            <TableHeaders>
+            <TableColumnHeader>
+                <Label>Name</Label>
+            </TableColumnHeader>
+
+            <TableColumnHeader>
+                <Label>Type</Label>
+            </TableColumnHeader>
+
+            <TableColumnHeader>
+                <Label>ManaCost</Label>
+            </TableColumnHeader>
+
+            <TableColumnHeader>
+                <Label>ConvertedManaCost</Label>
+            </TableColumnHeader>
+
+            <TableColumnHeader>
+                <Label>Color</Label>
+            </TableColumnHeader>
+
+            <TableColumnHeader>
+                <Label>ColorIdentity</Label>
+            </TableColumnHeader>
+
+				</TableHeaders>
+
+				<TableRowEntries>
+
+					<TableRowEntry>
+
+						<TableColumnItems>
+
+							<TableColumnItem>
+								<PropertyName>Name</PropertyName>
+							</TableColumnItem>
+
+							<TableColumnItem>
+								<PropertyName>Type</PropertyName>
+							</TableColumnItem>
+
+							<TableColumnItem>
+								<PropertyName>ManaCost</PropertyName>
+							</TableColumnItem>
+
+                            <TableColumnItem>
+								<PropertyName>ConvertedManaCost</PropertyName>
+							</TableColumnItem>
+
+                            <TableColumnItem>
+								<PropertyName>Color</PropertyName>
+							</TableColumnItem>
+
+                            <TableColumnItem>
+								<PropertyName>ColorIdentity</PropertyName>
+							</TableColumnItem>
+
+						</TableColumnItems>
+					</TableRowEntry>
+				</TableRowEntries>
+			</TableControl>
+		</View>
+  </ViewDefinitions>
+</Configuration>
